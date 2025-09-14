@@ -1,13 +1,12 @@
 # CiscoPKT-Project
-#Enterprise Networking Project (Cisco Packet Tracer)
-#📌 Overview
+## Overview
 
 This project demonstrates the design and implementation of an Enterprise Network using Cisco Packet Tracer.
 It follows a Hierarchical Network Design model (Core, Distribution, and Access layers) and integrates enterprise-grade technologies for scalability, security, and manageability.
 
 The network is designed for a multi-floor enterprise environment with VLANs for departmental segmentation, inter-VLAN routing, centralized services (DHCP, DNS, Email), and Internet access through ISPs.
 
-#🛠️ Technologies Implemented
+##  Technologies Implemented
 
 Hierarchical Network Design (Core / Distribution / Access layers)
 
@@ -29,7 +28,7 @@ Static IPv4 addressing for servers and routers
 
 Redundant ISP Connectivity for external communication
 
-#📂 Requirements
+## Requirements
 
 Cisco Packet Tracer (Version 8.x or higher recommended)
 
@@ -43,25 +42,16 @@ Routing Protocols & NAT
 
 ACLs and Security Configurations
 
-#🚀 How to Run
+## How to Run
 
 Clone this repository:
 
+```bash
 git clone https://github.com/<your-username>/Enterprise-Networking-PT.git
+```
 
-
-Open the .pkt file in Cisco Packet Tracer.
-
-Review the network topology and device configurations.
-
-Test connectivity using commands such as:
-
-ping (end-to-end communication)
-
-ipconfig (check assigned IPs)
-
-nslookup <domain> (verify DNS resolution)
-
-#🌐 Network Diagram
+## Network Diagram
 
 Below is the enterprise network topology implemented in this project:
+<img width="757" height="532" alt="image" src="https://github.com/user-attachments/assets/ba82ad34-f6d9-425c-b609-cc88fe2dc9f5" />
+
