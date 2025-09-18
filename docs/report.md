@@ -32,7 +32,7 @@ Knowledge: Basic networking (IP addressing, subnetting, router CLI)
 
 
 ## 4. IP Addressing Plan
-```md
+
 |Device / Role |	Interface / Hostname |	IP Address	  |     Mask      |	        Notes          |
 |--------------|-----------------------|----------------|---------------|-------------------------| 
 | Router G0/0  |	Subnet A gateway     |	192.168.1.1	  | 255.255.255.0 | DHCP default-router A   | 
@@ -42,7 +42,7 @@ Knowledge: Basic networking (IP addressing, subnetting, router CLI)
 |PC2	         |Client A	            |DHCP allocated  |255.255.255.0	|Example: 192.168.1.12    |
 |PC3        	|Client B	            |DHCP allocated  |255.255.255.0	|Example: 192.168.2.11    |
 |PC4        	|Client B	            |DHCP allocated  |255.255.255.0	|Example: 192.168.2.12    |
-```
+
 
 ## 5. Configuration Steps (detailed)
 ### 5.1 Router interface configuration
