@@ -33,15 +33,15 @@ Knowledge: Basic networking (IP addressing, subnetting, router CLI)
 
 ## 4. IP Addressing Plan
 ```md
-|Device / Role |	Interface / Hostname |	IP Address	|     Mask      |	        Notes        |
-|--------------|-----------------------|--------------|---------------|----------------------|
-| Router G0/0  |	Subnet A gateway     |	192.168.1.1	| 255.255.255.0	| DHCP default-router A|
-|Router G0/1	|Subnet B gateway	|192.168.2.1	|255.255.255.0	DHCP default-router B|
-|DNS Server	|Server (Subnet A)	|192.168.1.10	|255.255.255.0	DNS A record for domain|
-|PC1	|Client A	|DHCP allocated	|255.255.255.0	|Example: 192.168.1.11|
-|PC2	|Client A	|DHCP allocated	|255.255.255.0	|Example: 192.168.1.12|
-|PC3	|Client B	|DHCP allocated	|255.255.255.0	|Example: 192.168.2.11|
-|PC4	|Client B	|DHCP allocated	|255.255.255.0	|Example: 192.168.2.12|
+|Device / Role |	Interface / Hostname |	IP Address	  |     Mask      |	        Notes          |
+|--------------|-----------------------|----------------|---------------|-------------------------| 
+| Router G0/0  |	Subnet A gateway     |	192.168.1.1	  | 255.255.255.0 | DHCP default-router A   | 
+|Router G0/1	|Subnet B gateway	      |192.168.2.1	  |255.255.255.0  |	DHCP default-router B  |
+|DNS Server	   |Server (Subnet A)	   |192.168.1.10	  |255.255.255.0  |	DNS A record for domain|
+|PC1         	|Client A	            |DHCP allocated  |255.255.255.0	|Example: 192.168.1.11    |
+|PC2	         |Client A	            |DHCP allocated  |255.255.255.0	|Example: 192.168.1.12    |
+|PC3        	|Client B	            |DHCP allocated  |255.255.255.0	|Example: 192.168.2.11    |
+|PC4        	|Client B	            |DHCP allocated  |255.255.255.0	|Example: 192.168.2.12    |
 ```
 
 ## 5. Configuration Steps (detailed)
