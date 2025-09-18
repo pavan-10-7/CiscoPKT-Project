@@ -15,12 +15,6 @@ The goal is to enable dynamic IP assignment, DNS resolution, and seamless inter-
 
 ---
 
-## 🖥️ Network Topology
-![Network Topology](./topology.png)  
-*(Replace with your actual diagram image)*
-
----
-
 ## 📋 Features
 - [x] DHCP Server assigns IP addresses automatically  
 - [x] DNS Server resolves domain names to IPs  
@@ -49,6 +43,7 @@ git clone https://github.com/pavan-10-7/CiscoPKT-Project.git
 ```
 ---
 
-Below is the enterprise network topology implemented in this project:
+## 🖥️ Network Topology
+
 <img width="757" height="532" alt="image" src="https://github.com/user-attachments/assets/ba82ad34-f6d9-425c-b609-cc88fe2dc9f5" />
 
